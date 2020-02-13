@@ -1,0 +1,16 @@
+Hello all!
+
+My name is Emma Erickson, I am a junior studying electrical engineering at the University of Illinois at 
+Urbana-Champaign. My focus is in signal processing, so that's what drew me to this project initially :)
+
+Likes:
+- DSP
+- ice skating
+- practicing German
+- watching movies
+
+- To be continued ;)
+
+I'm excited to be working with BMES on the health mirror, to EOH and beyond!
+
+
