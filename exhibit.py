@@ -54,7 +54,7 @@ def detect_faces(cap, faceCascade, out):
                 cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
                 #cv2.rectangle(frame, (x,y), ())
                 #forehead = frame[y:y+90, x:x+w]
-                cv2.rectangle(frame, (x + int((w/4)), y+30), (((x+ int((3*w)/4))), y+70), (0,255,0),2)
+                cv2.rectangle(frame, (x + int((w*.3)), y+int(h*.1)), (x+ int(w*.7), y+int(h*.25)), (0,255,0),2)
                 # gets forehead from image and turns into lab
                 # face_frame = frame[y:y+h, x:x+w]
                 # rgb_face = cv2.cvtColor(face_frame, cv2.COLOR_BGR2RGB)
