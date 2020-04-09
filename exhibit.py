@@ -13,10 +13,10 @@ def video_setup():
     # Create a VideoCapture object and get video from webcam
     # 0 for HD(if connected, otherwise internal), 1 for internal (if HD connected)
     cap = cv2.VideoCapture(0)
-    cap.set(3,1920)
-    cap.set(4,1080)
+    cap.set(3,1280)
+    cap.set(4,720)
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    out = cv2.VideoWriter('output2.avi',fourcc, 20.0, (1920,1080))
+    out = cv2.VideoWriter('output2.avi',fourcc, 30.0, (1280,720))
 
     # Create the haar cascade - used for lighting and stuff
     cascPath = "haarcascade_frontalface_default.xml"
@@ -52,9 +52,9 @@ def detect_faces(cap, faceCascade, out):
                 # cols = 0
                 # Draws rectangle around face
                 cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
-                #cv2.rectangle(frame, (x,y), ())
-                #forehead = frame[y:y+90, x:x+w]
-                cv2.rectangle(frame, (x + int((w/4)), y+30), (((x+ int((3*w)/4))), y+70), (0,255,0),2)
+                cv2.rectangle(frame, (x + int((w/4)), y+30),
+                                     (((x+ int((3*w)/4))), y+70),
+                                     (0,255,0),2)
                 # gets forehead from image and turns into lab
                 # face_frame = frame[y:y+h, x:x+w]
                 # rgb_face = cv2.cvtColor(face_frame, cv2.COLOR_BGR2RGB)
