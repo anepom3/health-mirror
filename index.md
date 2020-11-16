@@ -1,4 +1,4 @@
-![Health Mirror](https://github.com/anepom3/health-mirror/edit/gh-pages/Purple 3d Cubes Soundcloud Banner.png)
+![Health Mirror](https://github.com/anepom3/health-mirror/blob/gh-pages/Purple%203d%20Cubes%20Soundcloud%20Banner.png)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/anepom3/health-mirror/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
